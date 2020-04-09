@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <link rel="shortcut icon" href="image-computer.png" type="image/x-icon">
+    <script src="button.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colour Selector</title>
+</head>
+<body>
+    <h1>Change Background Colour Project</h1>
+    <p id="demo">Select a color:</p>
+    <p>
+    <button onclick="changeBackground('green')">Green</button>
+    <button onclick="changeBackground('red')">Red</button>
+    <button onclick="changeBackground('orange')">Gold</button>
+    </p>
+    <p>
+    <input type="range" id="red" value="255" min="0" max="255" onchange="onSliderChanged()" style="background:red"> Red<br>
+    <input type="range" id="green" value="255" min="0" max="255" onchange="onSliderChanged()" style="background:green"> Green<br>
+    <input type="range" id="blue" value="255" min="0" max="255" onchange="onSliderChanged()" style="background:blue"> Blue
+    </p>
+    <footer>Written by Igbinosa Iwinosa</footer> 
+</body>
+</html>
